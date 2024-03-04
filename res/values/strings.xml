@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">My Buddy</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_tela02">Tela02</string>
+    <string name="title_activity_tela03">Tela03</string>
+    <string name="title_activity_tela04">Tela04</string>
+    <string name="title_activity_tela05">Tela05</string>
+    <string name="title_activity_tela06">Tela06</string>
+    <string name="title_activity_tela07">Tela07</string>
+    <string name="title_activity_tela08">Tela08</string>
+    <string name="title_activity_tela09">Tela09</string>
+    <string name="title_activity_tela10">Tela10</string>
+    <string name="title_activity_tela11">Tela11</string>
+    <string name="title_activity_tela12">Tela12</string>
+    <string name="title_activity_tela13">Tela13</string>
+    <string name="title_activity_tela14">Tela14</string>
+    <string name="title_activity_tela15">Tela15</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>

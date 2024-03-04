@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundo"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Tela12" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:textColor="#123f3a"
+        android:layout_marginTop="40dp"
+        android:text="Bem vindo Administrador"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center_vertical"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:background="@drawable/black_border"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:textColor="#ffffff"
+            android:text="Gerenciar animais" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:background="@drawable/black_border"
+            android:layout_marginBottom="20dp"
+            android:text="Gerenciar produtos" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/black_border"
+            android:text="Gerenciar solicitações de adoção" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/small_border"
+            android:text="Sair do administrador" />
+
+    </LinearLayout>
+
+</LinearLayout>

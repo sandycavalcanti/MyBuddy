@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.app_my_buddy"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.app_my_buddy.Tela01"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.app_my_buddy.Tela02"
+            android:label="@string/title_activity_tela02" >
+        </activity>
+        <activity
+            android:name="com.example.app_my_buddy.Tela03"
+            android:label="@string/title_activity_tela03" >
+        </activity>
+        <activity
+            android:name="com.example.app_my_buddy.Tela04"
+            android:label="@string/title_activity_tela04" >
+        </activity>
+        <activity
+            android:name="com.example.app_my_buddy.Tela05"
+            android:label="@string/title_activity_tela05" >
+        </activity>
+        <activity
+            android:name="com.example.app_my_buddy.Tela06"
+            android:label="@string/title_activity_tela06" >
+        </activity>
+        <activity
+            android:name="com.example.app_my_buddy.Tela07"
+            android:label="@string/title_activity_tela07"
+            android:windowSoftInputMode="adjustPan|stateVisible" >
+        </activity>
+        <activity
+            android:name="com.example.app_my_buddy.Tela08"
+            android:label="@string/title_activity_tela08" 
+            android:windowSoftInputMode="adjustPan|stateVisible" >
+        </activity>
+        <activity
+            android:name="com.example.app_my_buddy.Tela09"
+            android:label="@string/title_activity_tela09" >
+        </activity>
+        <activity
+            android:name="com.example.app_my_buddy.Tela10"
+            android:label="@string/title_activity_tela10"
+            android:windowSoftInputMode="adjustPan|stateVisible" >
+        </activity>
+        <activity
+            android:name="com.example.app_my_buddy.Tela11"
+            android:label="@string/title_activity_tela11" >
+        </activity>
+        <activity
+            android:name="com.example.app_my_buddy.Tela12"
+            android:label="@string/title_activity_tela12" >
+        </activity>
+        <activity
+            android:name="com.example.app_my_buddy.Tela14"
+            android:label="@string/title_activity_tela14" 
+            android:windowSoftInputMode="adjustPan|stateVisible" >
+        </activity>
+        <activity
+            android:name="com.example.app_my_buddy.Tela15"
+            android:label="@string/title_activity_tela15" >
+        </activity>
+    </application>
+
+</manifest>
